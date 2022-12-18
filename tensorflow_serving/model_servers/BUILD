@@ -372,6 +372,8 @@ cc_library(
         "//tensorflow_serving/servables/tensorflow:util",
         "//tensorflow_serving/servables/tensorflow:thread_pool_factory",
         "//tensorflow_serving/servables/tensorflow:thread_pool_factory_config_cc_proto",
+        "//tensorflow_serving/experimental/tensorflow/ops/remote_predict:remote_predict_op_kernel",
+        "//tensorflow_serving/experimental/tensorflow/ops/remote_predict:remote_predict_ops_cc",
     ] + SUPPORTED_TENSORFLOW_OPS,
 )
 
